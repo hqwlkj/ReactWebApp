@@ -29,3 +29,5 @@ node_modules
 # Bower
 bower_components/
 .idea
+.DS_Store
+.idea/**.*
