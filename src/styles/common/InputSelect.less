@@ -1,0 +1,28 @@
+@import "../theme";
+
+.input-select-component {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  float: right;
+  color: @color-text-caption;
+}
+.input-select-popup{
+  .popup-list{
+    overflow: hidden;
+    .am-list-body{
+      max-height:45vh;
+      overflow-y: scroll;
+      .am-checkbox-item{
+        .am-list-thumb{
+          .am-checkbox-wrapper {
+            font-size: 34px;
+            word-break: break-all; /* 只对英文起作用，以字母作为换行依据。 */
+            word-wrap: break-word; /* 只对英文起作用，以单词作为换行依据。*/
+            white-space: pre-wrap; /* 只对中文起作用，强制换行。*/
+          }
+        }
+      }
+    }
+  }
+}

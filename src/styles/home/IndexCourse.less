@@ -1,0 +1,95 @@
+@import "../theme";
+
+.indexcourse-component {
+  margin-bottom: 10px;
+  .am-card {
+    .am-card-header{
+      padding: 25px 30px;
+    }
+    .am-card-body {
+      .am-steps {
+        padding: 25px 0 0;
+        .am-steps-item {
+          .am-steps-tail{
+            left: 38px;
+          }
+          .am-steps-head{
+            .carme-icon {
+              font-size: 36px;
+              color: @brand-primary;
+              margin-left: 21px;
+            }
+            .am-steps-icon{
+              width: 35px !important;
+              height: 35px !important;
+              line-height: 35px !important;
+            }
+          }
+          &:first-child {
+            .am-steps-head{
+              .am-steps-head-inner{
+                .am-steps-icon{
+                  .carme-icon{
+                    font-size: 70px;
+                    color: #72c8f4;
+                    margin-left: 5px;
+                    margin-top: -20px;
+                  }
+                }
+              }
+            }
+          }
+          &:last-child{
+            height: 1px !important;
+            *{
+              height: -1px !important;
+              min-height:-1px !important;
+            }
+          }
+          .am-steps-main{
+            min-height: 100px;
+            .am-steps-title{
+              color: #474747;
+              font-weight:400;
+              margin: -5px 0 0 30px;
+            }
+            .am-steps-description{
+              margin-left: 35px;
+              padding: 25px 0;
+              .step-list{
+                .step-item{
+                  width: 100%;
+                  height: 50px;
+                  line-height: 50px;
+                  padding: 10px 0;
+                  .carme-icon{
+                    float: left;
+                    font-size: 56px;
+                    color: #72c8f4;
+                    margin-right: 10px;
+                  }
+                  .course-name{
+                    float: left;
+                    width: 85%;
+                    font-size: 32px;
+                    color: #474747;
+                    white-space:nowrap;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    font-weight: 300;
+                  }
+                  &:after{
+                    content:'';
+                    display:block;
+                    clear:both;
+                    zoom: 1;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

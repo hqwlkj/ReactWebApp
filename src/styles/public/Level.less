@@ -1,0 +1,186 @@
+@import "../theme";
+
+.level-component {
+  min-height: calc(100vh - 2rem);
+  .level-body {
+    .my-accordion {
+      .am-accordion-header{
+        font-size: 30px;
+        color: #474747;
+      }
+      .progressbar-content {
+        display: flex;
+        padding: 25px 25px 0;
+        width: clac(100% - 50px);
+        ul {
+          width: 100%;
+          li {
+            float: left;
+            flex: 1;
+            height: 30px;
+            width: 30px;
+            color: #4c4c4c;
+            cursor: pointer;
+            margin: 15px 10px 15px 0;
+            border: 1px solid #c391be;
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+            &.cur {
+              background-color: #c391be;
+            }
+            &.car-1 {
+              &:after {
+                content: '';
+                width: 27px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+            &.car-2 {
+              &:after {
+                content: '';
+                width: 24px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+            &.car-3 {
+              &:after {
+                content: '';
+                width: 21px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+
+            &.car-4 {
+              &:after {
+                content: '';
+                width: 18px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+            &.car-5 {
+              &:after {
+                content: '';
+                width: 15px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+            &.car-6 {
+              &:after {
+                content: '';
+                width: 12px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+            &.car-7 {
+              &:after {
+                content: '';
+                width: 9px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+            &.car-8 {
+              &:after {
+                content: '';
+                width: 6px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+            &.car-9 {
+              &:after {
+                content: '';
+                width: 3px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #ffffff;
+                border-radius: 0 5px 5px 0;
+              }
+            }
+
+            &:last-child {
+              float: right;
+              width: 20%;
+              border: none;
+              border-radius: 0;
+              font-size: 26px;
+              text-align: right;
+              margin: 15px 0;
+            }
+          }
+        }
+      }
+      .level-list {
+        padding: 25px;
+        width: clac(100% - 50px);
+        .level-item {
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          padding: 15px 0;
+          .level-title {
+            float: left;
+            width: 85%;
+            font-size: 32px;
+            color: #474747;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: 300;
+          }
+          .level-state {
+            float: right;
+            width: 15%;
+            text-align: right;
+            font-size: 28px;
+            color: #99cd8f;
+            &.unread {
+              color: #f38b6b;
+            }
+          }
+        }
+      }
+    }
+  }
+}

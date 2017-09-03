@@ -1,0 +1,25 @@
+@import "../theme";
+
+.tree-view-component {
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #dddddd;
+  .tree-view-container{
+    height: calc(100vh);
+    overflow: hidden;
+    .am-list{
+      height: calc(100% - 5rem);
+      padding: 25px 0 0;
+      overflow-y: scroll;
+      .am-list-item{
+        &:last-child{
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}

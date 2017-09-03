@@ -1,0 +1,40 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+  margin:0;
+}
+#app{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+#app .start-up {
+  width: 100%;
+  height: 100%;
+  background: #55cdb5;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+#app .start-up .logo{
+  position: absolute;
+  top:30%;
+  left: 50%;
+  transform: translate(-50%,-30%);
+  width: 300px;
+  height: 300px;
+  border: 1px solid #55cdb5;
+  text-align: center;
+  color: #ffffff;
+}
+
+#app .start-up .copyright{
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  border: 1px solid #55cdb5;
+  text-align: center;
+  color: #ffffff;
+  font-size: .24rem;
+}

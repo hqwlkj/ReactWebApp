@@ -1,0 +1,29 @@
+@import "../theme";
+
+.tags-component {
+  padding-right: 25px;
+  &::after {
+    content: '';
+    clear: both;
+  }
+  .tag {
+    display: inline-block;
+    line-height: 22px;
+    height: 22px;
+    padding: 0 8px;
+    border-radius: 6px;
+    border: 1px solid #e9e9e9;
+    background: #f7f7f7;
+    font-size: 12px;
+    transition: all .3s cubic-bezier(.78, .14, .15, .86);
+    vertical-align: middle;
+    opacity: 1;
+    overflow: hidden;
+    margin: 2px 4px 2px 0;
+    cursor: pointer;
+    &.active {
+      background: @brand-primary;
+      color: #fff;
+    }
+  }
+}
