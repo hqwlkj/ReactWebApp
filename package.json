@@ -72,7 +72,7 @@
   "dependencies": {
     "antd-mobile": "^1.6.3",
     "autoprefixer": "^7.1.2",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "core-js": "^2.0.0",
     "history": "^4.6.3",
     "karma": "^1.7.0",
