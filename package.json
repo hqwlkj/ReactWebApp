@@ -76,7 +76,7 @@
     "core-js": "^2.0.0",
     "history": "^4.6.3",
     "karma": "^1.7.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "md5": "^2.2.1",
     "normalize.css": "^4.0.0",
     "parsec-area-data": "^1.0.8",
