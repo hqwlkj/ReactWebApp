@@ -70,7 +70,7 @@
     "webpack-visualizer-plugin": "^0.1.11"
   },
   "dependencies": {
-    "antd-mobile": "^1.6.3",
+    "antd-mobile": "^5.24.2",
     "autoprefixer": "^7.1.2",
     "axios": "^0.21.2",
     "core-js": "^2.0.0",
