@@ -81,7 +81,7 @@
     "normalize.css": "^4.0.0",
     "parsec-area-data": "^1.0.8",
     "parsec-ss": "0.0.2",
-    "progressbar.js": "^1.0.1",
+    "progressbar.js": "^1.1.1",
     "rc-form": "^1.4.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
