@@ -55,7 +55,7 @@
     "mocha": "^10.8.2",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.16",
-    "postcss": "^8.5.14",
+    "postcss": "^8.5.18",
     "postcss-loader": "^8.2.1",
     "postcss-pxtorem": "^6.1.0",
     "react-addons-test-utils": "^0.14.0",
