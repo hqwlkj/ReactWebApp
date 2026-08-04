@@ -83,8 +83,8 @@
     "parsec-ss": "0.0.2",
     "progressbar.js": "^1.1.1",
     "rc-form": "^1.4.7",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "react-router": "^3.0.1"
   }
 }
